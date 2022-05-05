@@ -1,5 +1,8 @@
 import React , {Component} from "react";
 
+// global style 
+import "./app.css";
+
 // Header component
 import Header from "./Header";
 
