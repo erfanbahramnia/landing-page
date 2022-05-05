@@ -6,12 +6,12 @@ class Header extends Component {
     render() {
         return (
             <div className={styles.container}>
-                <div>
+                <div className={styles.navbar}>
                     <p>Home Page</p>
                     <p>Products</p>
                     <p>About us</p>
                 </div>
-                <img src="https://www.botostart.ir/wp-content/uploads/2021/03/Component-93.svg" alt="botostart" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8HIFfeVE60zPpgNl-LlUVb-W4UlE79xSdGgz_zAk296iUeqN13inkIR3EF0fSdj2bHQ&usqp=CAU" alt="botostart" />
             </div>
         )
     }
