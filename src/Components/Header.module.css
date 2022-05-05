@@ -23,7 +23,7 @@
     transition: all 1s;
 }
 
-img {
+#shopLogo {
     width: 50px;
     border-radius: 50%;
 }

@@ -11,7 +11,7 @@ class Header extends Component {
                     <p>Products</p>
                     <p>About us</p>
                 </div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8HIFfeVE60zPpgNl-LlUVb-W4UlE79xSdGgz_zAk296iUeqN13inkIR3EF0fSdj2bHQ&usqp=CAU" alt="botostart" />
+                <img id={styles.shopLogo} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8HIFfeVE60zPpgNl-LlUVb-W4UlE79xSdGgz_zAk296iUeqN13inkIR3EF0fSdj2bHQ&usqp=CAU" alt="botostart" />
             </div>
         )
     }
