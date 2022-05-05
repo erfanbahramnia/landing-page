@@ -1,0 +1,30 @@
+.container, .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    box-sizing: border-box;
+    padding: 25px 50px;
+    width: 100vw;
+    height: 60px;
+    background-color: #2F323A;    
+}
+
+.navbar {
+    width: 300px;
+    color: #fff;
+}
+
+.navbar p:hover {
+    color: #8884FF;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+img {
+    width: 50px;
+    border-radius: 50%;
+}
+
