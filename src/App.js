@@ -4,7 +4,7 @@ import React , {Component} from "react";
 import "./app.css";
 
 // Header component
-import Header from "./Header";
+import Header from "./Components/Header";
 
 class App extends Component {
 
