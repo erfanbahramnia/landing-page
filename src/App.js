@@ -5,6 +5,8 @@ import "./app.css";
 
 // Header component
 import Header from "./Components/Header";
+// banner component
+import Banner from "./Components/Banner";
 
 class App extends Component {
 
@@ -12,6 +14,7 @@ class App extends Component {
         return (
             <>
                 <Header />
+                <Banner />
             </>
         )
     }
