@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 
 // component that shows phone cart
-import Cart from "./cart";
+import Cart from "./Cart";
 
 
 
