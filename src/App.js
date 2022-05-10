@@ -9,6 +9,8 @@ import Header from "./Components/Header";
 import Banner from "./Components/Banner";
 // Carts component that shows phones
 import Carts from "./Components/Carts";
+// component for searchin
+import Search from "./Components/Search";
 
 class App extends Component {
 
@@ -18,6 +20,7 @@ class App extends Component {
                 <Header />
                 <Banner />
                 <Carts />
+                <Search />
             </>
         )
     }
