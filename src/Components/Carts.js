@@ -3,7 +3,8 @@ import React, {Component} from "react";
 // component that shows phone cart
 import Cart from "./Cart";
 
-
+// style
+import styles from "./Carts.module.css";
 
 class Carts extends Component {
     constructor() {
@@ -22,7 +23,7 @@ class Carts extends Component {
         const {iphoneX, iphone11, iphone12Pro, iphone13} = this.state;
 
         return (
-            <div>
+            <div className={styles.container}>
                 <Cart imageAdd={iphoneX} phoneName="iphone X" phonePrice="400$" />
                 <Cart imageAdd={iphone11} phoneName="iphone 11" phonePrice="500$" />
                 <Cart imageAdd={iphone12Pro} phoneName="iphone 12pro" phonePrice="600$" />
