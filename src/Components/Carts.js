@@ -31,3 +31,5 @@ class Carts extends Component {
         )
     }
 };
+
+export default Carts;
