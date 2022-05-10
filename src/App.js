@@ -8,7 +8,7 @@ import Header from "./Components/Header";
 // banner component
 import Banner from "./Components/Banner";
 // Carts component that shows phones
-import Carts from "./Components/carts";
+import Carts from "./Components/Carts";
 
 class App extends Component {
 
@@ -17,7 +17,7 @@ class App extends Component {
             <>
                 <Header />
                 <Banner />
-
+                <Carts />
             </>
         )
     }
